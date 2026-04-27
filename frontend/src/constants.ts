@@ -3,6 +3,9 @@ import image2 from './Assets/image2.jpg';
 import image3 from './Assets/image3.jpg';
 import image4 from './Assets/image4.jpg';
 import image5 from './Assets/image5.jpg';
+import image6 from './Assets/image6.jpg';
+import image11a from './Assets/image11a.jpg';
+import image9 from './Assets/image9.jpg';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Home', href: '#home' },
@@ -18,21 +21,21 @@ export const SERVICES: Service[] = [
     title: 'Residential Construction',
     description: 'We build custom residential homes with a focus on durability, aesthetics, and modern comfort for families.',
     icon: 'Home',
-    image: 'https://images.unsplash.com/photo-1518780664697-55e3ad937233?auto=format&fit=crop&q=80&w=800',
+    image: image9,
   },
   {
     id: 'com-const',
     title: 'Commercial Construction',
     description: 'Professional development of office buildings, multi-purpose facilities, and large-scale commercial infrastructures.',
     icon: 'Building2',
-    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=800',
+    image: image6,
   },
   {
     id: 'renovations',
     title: 'Renovations & Remodeling',
     description: 'Breathe new life into your existing spaces with our expert remodeling services for kitchens, bathrooms, and entire floors.',
     icon: 'Wrench',
-    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&q=80&w=800',
+    image: image11a,
   },
   {
     id: 'proj-mgmt',

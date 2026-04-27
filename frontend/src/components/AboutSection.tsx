@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { CheckCircle2, Shield, Gem, Zap } from 'lucide-react';
 import { SectionHeader } from './SectionHeader';
+import collegesImage from '../Assets/Colleges.jpg';
 
 export function AboutSection() {
   const values = [
@@ -23,11 +24,13 @@ export function AboutSection() {
           >
             <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1503387762-592dee58c460?auto=format&fit=crop&q=80&w=1000"
-                alt="About TCC"
+                src={collegesImage}
+                alt="Our Team"
                 className="w-full h-full object-cover"
-                referrerPolicy="no-referrer"
               />
+              <div className="absolute bottom-4 left-4 bg-brand-dark/85 text-white px-4 py-2 rounded-md text-sm font-semibold uppercase tracking-wider">
+                Our Team
+              </div>
             </div>
             {/* Experience Badge */}
             <div className="absolute -bottom-10 -right-10 bg-brand-orange p-10 rounded-2xl shadow-2xl text-white z-20 hidden md:block">
